@@ -1,3 +1,4 @@
+// Panado
 #include <iostream>
 using namespace std;
 
@@ -13,7 +14,7 @@ struct Date{
 };
 struct Item {
 	int code;
-	int price
+	int price;
 };
 struct Customer{
        char order[10];
@@ -21,7 +22,7 @@ struct Customer{
 };
 struct Order{
 	char item[20];
-	int quantity
+	int quantity;
 };
 struct yey{
 	Name name;
