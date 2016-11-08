@@ -149,6 +149,7 @@ void newLine();
 		cout << "ORDER DATE: "<<endl;
 		cout << "Day: ";
 		cin >> c[i].order.day;
+		newLine();
 		cout << "Month: ";
 		cin >> c[i].order.month;
 		cout << "Year: ";
